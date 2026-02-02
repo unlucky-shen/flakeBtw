@@ -1,2 +1,3 @@
 # FlakeBtw
-Testing NixOS Flakes &amp; Home Manager
+
+ts so hard wtf asdghjkadcvndkfjsghkafg
