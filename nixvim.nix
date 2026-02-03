@@ -12,7 +12,7 @@ programs.nixvim = {
       termguicolors = true;
     };
 
-    colorschemes.gruvbox.enable = true;
+    colorschemes.gruvbox-material.enable = true;
 
 };
 
