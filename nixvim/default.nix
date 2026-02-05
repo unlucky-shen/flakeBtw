@@ -51,4 +51,3 @@ programs.nixvim = {
 };
 
 }
-

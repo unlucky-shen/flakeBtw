@@ -70,9 +70,9 @@
 
   # user
   users.users.tau= {
-    isNormalUser = true;
+    isnormaluser = true;
     description = "tau";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extragroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [];
   };
 
@@ -82,11 +82,6 @@
   programs.steam.gamescopeSession.enable = true;
   programs.gamemode.enable = true;
   programs.nm-applet.enable = true;
-
-	#  programs.neovim = {
-	#  	enable = true;
-	# defaultEditor = true;
-	#  };
 
   environment.systemPackages = with pkgs; [
 		# core utils
