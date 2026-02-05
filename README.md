@@ -7,4 +7,4 @@ ts so hard wtf asdghjkadcvndkfjsghkafg
 - [x] Porting my neovim lua config to nix
 - [ ] Setting up home manager
 - [ ] Making entire system "declarative"
-- [ ] Modularize NixOS
+- [x] Modularize NixOS
