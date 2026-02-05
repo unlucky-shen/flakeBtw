@@ -1,10 +1,9 @@
 # FlakeBtw
 
-ts so hard wtf asdghjkadcvndkfjsghkafg
+My attempt on making a "minimal"-ish NixOS flake.
 
 ### Currently working on...
 
 - [x] Porting my neovim lua config to nix
-- [ ] Setting up home manager
-- [ ] Making entire system "declarative"
 - [x] Modularize NixOS
+- [ ] Making entire system "declarative"
