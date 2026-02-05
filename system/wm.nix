@@ -45,5 +45,4 @@
 		ntfs3g 
 		exfat
 	];
-
 }

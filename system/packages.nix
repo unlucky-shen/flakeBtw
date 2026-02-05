@@ -46,5 +46,4 @@
 		# misc
 		bibata-cursors
 	];
-	
 }
