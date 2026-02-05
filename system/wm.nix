@@ -1,4 +1,4 @@
-{ ... }: 
+{ pkgs, ... }: 
 {
 	# wayland tweaks
 	environment.sessionVariables = {

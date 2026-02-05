@@ -1,4 +1,4 @@
-{ config, pkgs, lib, ... }: 
+{ config, pkgs, lib, user, host, ... }: 
 {
 	imports = [ 
 		./hardware-configuration.nix 
@@ -18,9 +18,9 @@
 	time.timeZone = "Asia/Kuala_Lumpur";
 
 	users.users.tau= {
-		isnormaluser = true;
+		isNormalUser = true;
 		description = "tau";
-		extragroups = [ "networkmanager" "wheel" ];
+		extraGroups = [ "networkmanager" "wheel" ];
 		packages = with pkgs; [];
 	};
 
