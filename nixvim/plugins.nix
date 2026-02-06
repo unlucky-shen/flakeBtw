@@ -1,10 +1,10 @@
 { config, pkgs, lib, nixvim, ... }: 
 
 {
-	plugins.transparent = {
-		enable = true;
-		autoLoad = true;
-	};
+	# plugins.transparent = {
+	# 	enable = true;
+	# 	autoLoad = true;
+	# };
 	plugins.web-devicons.enable = true;
 	plugins.lualine.enable = true;
 	plugins.mini-pick.enable = true;

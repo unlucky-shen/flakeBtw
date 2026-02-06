@@ -46,7 +46,8 @@
 
 		clipboard.register = "unnamedplus";
 		clipboard.providers.xclip.enable = true;
-		colorschemes.gruvbox-material.enable = true;
+		colorschemes.vague.enable = true;
+		# colorschemes.gruvbox-material.enable = true;
 
 		imports = [ ./keybinds.nix ./plugins.nix ];
 	};
