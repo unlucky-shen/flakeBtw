@@ -1,4 +1,5 @@
 { config, pkgs, lib, user, host, ... }: 
+
 {
 	imports = [ 
 		./hardware-configuration.nix 
@@ -23,6 +24,17 @@
 		extraGroups = [ "networkmanager" "wheel" ];
 		packages = with pkgs; [];
 	};
+	
+	# programs.git = {
+	# 	enable = true;
+	# 	settings = {
+	# 		user = {
+	# 			name  = "Taufiq Haikal";
+	# 			email = "taufiqhaikal002@gmail.com";
+	# 		};
+	# 		init.defaultBranch = "main";
+	# 	};
+	# };
 
 	services.pulseaudio.enable = false;
 	security.rtkit.enable = true;
