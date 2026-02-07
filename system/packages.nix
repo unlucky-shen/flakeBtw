@@ -42,6 +42,7 @@
 		zathura 
 		libreoffice 
 		fastfetch
+		protonup-qt
 		
 		# misc
 		bibata-cursors
