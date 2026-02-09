@@ -1,4 +1,4 @@
-{ config, nixvim, ... }: 
+{ config, nixvim, ... }:
 
 {
 	keymaps = [

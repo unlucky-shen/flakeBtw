@@ -1,4 +1,4 @@
-{ config, pkgs, lib, nixvim, ... }: 
+{ config, pkgs, lib, nixvim, ... }:
 
 {
 	plugins.transparent = {
@@ -9,6 +9,7 @@
 	plugins.mini-pick.enable = true;
 	plugins.nvim-autopairs.enable = true;
 	plugins.indent-blankline.enable = true;
+	
 	plugins.treesitter = {
 		enable = true;
 		settings = {
@@ -47,6 +48,5 @@
 			};
 			# r_language_server.enable = true;
 		};
-
 	};
 }

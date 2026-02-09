@@ -1,4 +1,4 @@
-{ config, pkgs, lib, nixvim, ... }: 
+{ config, pkgs, lib, nixvim, ... }:
 
 {
 	extraPlugins = with pkgs.vimPlugins; [ lush-nvim zenbones-nvim ];
