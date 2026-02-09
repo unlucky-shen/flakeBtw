@@ -4,5 +4,5 @@
 git clone https://github.com/unlucky-shen/.FlakeBtw.git
 git clone https://github.com/unlucky-shen/hypr.git
 git clone https://github.com/unlucky-shen/kitty.git
-cd .FlakeBtw
-sudo nixos-rebuild build --flake .#Tau --impure
+sudo mv .FlakeBtw/install/configuration.nix /etc/nixos/configuration.nix
+sudo nixos-rebuild switch
