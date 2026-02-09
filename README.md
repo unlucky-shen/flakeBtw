@@ -14,9 +14,9 @@ chmod +x ./install.sh
 ./install.sh
 ```
 
-### Steam Launch Options
+### Add to steam launch options
 ```
-nvidia-offload gamemoderun gamescope -w 1920 -h 1080 -- %command%
+nvidia-offload %command%
 ```
 
 ### Currently working on...
@@ -24,3 +24,4 @@ nvidia-offload gamemoderun gamescope -w 1920 -h 1080 -- %command%
 - [x] Porting my neovim lua config to nix
 - [x] Modularize NixOS
 - [ ] Making entire system "declarative"
+- [ ] Fixed borked install script T_T

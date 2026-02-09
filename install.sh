@@ -7,9 +7,13 @@ git clone https://github.com/unlucky-shen/hypr.git
 git clone https://github.com/unlucky-shen/kitty.git
 
 # Copy generated hardware config to flake directory
-sudo cp /etc/nixos/hardware-configuration.nix /home/tau/.FlakeBtw
+sudo cp /etc/nixos/hardware-configuration.nix /home/tau/.FlakeBtw/system/
+
+# Navigate into flake
+cd .FlakeBtw/
+
+# Track changes
+git add .
 
 # Apply config
-cd .FlakeBtw
-sudo nixos-rebuild switch --flake .#Tau --impure
-
+sudo nixos-rebuild switch --flake .#Tau
