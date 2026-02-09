@@ -1,4 +1,5 @@
 { config, pkgs, lib, ... }:
+
 {
 	boot.kernelParams = [ 
 		"nvidia-drm.modeset=1" 
@@ -10,6 +11,11 @@
 		"modesetting" 
 		"nvidia" 
 	];
+
+	hardware.graphics = {
+		enable = true;
+		enable32Bit = true;
+	};
 
 	# nvidia PRIME offload
 	hardware.nvidia = {
