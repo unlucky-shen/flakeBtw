@@ -1,6 +1,6 @@
 # FlakeBtw ❄️
 
-My attempt on making a "minimal"-ish NixOS flake. ts so tedious wtf sdfasfgsdfjkbnskjdb
+My attempt on making a "minimal"-ish NixOS flake. Still a work in progress...
 
 ### Installation
 
@@ -10,6 +10,11 @@ curl https://raw.githubusercontent.com/unlucky-shen/.FlakeBtw/main/install.sh > 
 chmod +x ./install.sh
 
 ./install.sh
+```
+
+### Steam Launch Options
+```
+nvidia-offload gamemoderun gamescope -w 1920 -h 1080 -- %command%
 ```
 
 ### Currently working on...
