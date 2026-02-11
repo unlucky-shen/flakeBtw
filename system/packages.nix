@@ -9,21 +9,18 @@
 		# core utils
 		wget 
 		curl 
-		xclip 
 		wl-clipboard 
 		unzip 
 		p7zip 
 		libarchive 
 		flatpak 
 		htop 
-		openssh 
 		fzf 
 		ripgrep 
 		fd 
 		eza 
 		auto-cpufreq 
 		killall 
-		networkmanagerapplet
 
 		# dev tools
 		git 
