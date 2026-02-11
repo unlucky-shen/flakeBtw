@@ -36,7 +36,7 @@
 		libappindicator 
 		libayatana-appindicator 
 		wofi 
-		swww 
+		hyprpaper 
 		hyprsunset 
 		hypridle 
 		hyprshot 
