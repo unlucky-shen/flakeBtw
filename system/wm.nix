@@ -25,7 +25,6 @@
 	
 	# hyprland essentials
 	programs.hyprlock.enable = true;
-	programs.nm-applet.enable = true;
 	
 	services.udisks2.enable = true;
 
